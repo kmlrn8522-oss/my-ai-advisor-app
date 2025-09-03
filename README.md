@@ -126,3 +126,8 @@ const text = data.choices?.[0]?.message?.content || "[]";
 - Better error handling and loading animations.
 
 - Pagination for large catalogs.
+
+## 📸 Screenshot
+![App Screenshot](assets/ios.png)
+![App Screenshot](assets/android_1.png)
+![App Screenshot](assets/android_2.png)
