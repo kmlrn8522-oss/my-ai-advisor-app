@@ -117,17 +117,10 @@ const response = await fetch("https://api.openai.com/v1/chat/completions", {
 const data = await response.json();
 const text = data.choices?.[0]?.message?.content || "[]";
 
-## ✨ Next Steps / Improvements
+## 📸 Screenshots
 
-- Add product images to make recommendations visually appealing.
-
-- Add filters (price range, category, etc.).
-
-- Better error handling and loading animations.
-
-- Pagination for large catalogs.
-
-## 📸 Screenshot
-![App Screenshot](assets/ios.png)
-![App Screenshot](assets/android_1.png)
-![App Screenshot](assets/android_2.png)
+<p align="center">
+  <img src="assets/ios.png" alt="iOS Screenshot" width="250"/>
+  <img src="assets/android_1.png" alt="Android Screenshot 1" width="250"/>
+  <img src="assets/android_2.png" alt="Android Screenshot 2" width="250"/>
+</p>
